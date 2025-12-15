@@ -13,7 +13,7 @@ def preprocess_ispu(
     # ===============================
     # 1. LOAD DATA
     # ===============================
-    df = pd.read_csv(input_path, encoding="latin1")
+    df = pd.read_excel(input_path)
 
     # ===============================
     # 2. DROP KOLOM TIDAK PERLU
@@ -83,4 +83,5 @@ if __name__ == "__main__":
     )
 
     print("Preprocessing selesai. Data siap digunakan.")
+
 
