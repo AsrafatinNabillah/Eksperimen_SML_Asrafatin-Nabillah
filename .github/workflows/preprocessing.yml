@@ -31,7 +31,7 @@ jobs:
     # 4. Jalankan preprocessing
     - name: Run preprocessing script
       run: |
-        python preprocessing/automate_Nama-siswa.py
+        python preprocessing/automate_Asrafatin Nabillah.py
 
     # 5. Commit hasil preprocessing (opsional tapi ADVANCE)
     - name: Commit preprocessing results
